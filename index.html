@@ -59,7 +59,7 @@
       a.href = "gallery.html?album=" + album.id;
 
       const img = document.createElement("img");
-      img.src = photoPath(album, album.start);   // cover = first photo
+      img.src = photoPath(album, album.cover || album.start);   // cover = first photo
       img.alt = album.title;
       img.onerror = () => img.remove();          // grey tile if the photo is missing
 
