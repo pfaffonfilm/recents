@@ -8,7 +8,8 @@ const albums = [
     folder: "pics/",           // folder the photos are in
     start: 66960002,           // first number (without leading zeros)
     end: 66960035,             // last number
-    digits: 12                 // total digits in the filename (000066960002 = 12)
+    digits: 12,                 // total digits in the filename (000066960002 = 12)
+    cover: 000066960027.jpg
   },
   {
     id: "album_x",
