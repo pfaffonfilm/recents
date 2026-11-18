@@ -8,7 +8,7 @@ const albums = [
     title: "halloween '26",
     folder: "pics/",           // folder the photos are in
     start: 66960002,           // first number (without leading zeros)
-    end: 66960035,             // last number
+    end: 66960032,             // last number
     digits: 12,                 // total digits in the filename (000066960002 = 12)
     cover: 66960027
   },
@@ -24,6 +24,14 @@ const albums = [
   {
     id: "nov '26",
     title: "nov '26",
+    folder: "pics/",
+    start: 66960033,
+    end: 66960035,
+    digits: 12
+  },
+  {
+    id: "archive",
+    title: "archive",
     folder: "pics/",
     start: 66960033,
     end: 66960035,
