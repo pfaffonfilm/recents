@@ -21,12 +21,12 @@ const albums = [
     digits: 12                  
   },
   {
-    id: "album_y",
-    title: "occasion_y",
-    folder: "occasion_y/",
-    start: 1,
-    end: 20,
-    digits: 2
+    id: "nov '26",
+    title: "nov '26",
+    folder: "pics/",
+    start: 66960033,
+    end: 66960035,
+    digits: 12
   }
 ];
 
