@@ -9,7 +9,7 @@ const albums = [
     start: 66960002,           // first number (without leading zeros)
     end: 66960035,             // last number
     digits: 12,                 // total digits in the filename (000066960002 = 12)
-    cover: 000066960027.jpg
+    cover: 000066960027
   },
   {
     id: "album_x",
