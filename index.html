@@ -64,7 +64,7 @@
       img.onerror = () => img.remove();          // grey tile if the photo is missing
 
       const label = document.createElement("span");
-      label.textContent = album.title;
+      label.textContent = album.label || album.title;
 
       a.appendChild(img);
       a.appendChild(label);
