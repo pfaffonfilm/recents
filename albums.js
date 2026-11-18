@@ -18,7 +18,8 @@ const albums = [
     folder: "pics/",     // change to your real folder name
     start: 66960002,                  // change to your real numbers
     end: 66960032,
-    digits: 12                  
+    digits: 12,
+    cover: 66960029
   },
   {
     id: "nov '26",
