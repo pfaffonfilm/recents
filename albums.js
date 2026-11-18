@@ -13,17 +13,17 @@ const albums = [
     cover: 66960027
   },
   {
-    id: "album_x",
-    title: "ocassion_x",
-    folder: "ocassion_x/",     // change to your real folder name
-    start: 1,                  // change to your real numbers
-    end: 20,
-    digits: 2                  // 01.jpg, 02.jpg... use 12 if yours are like the ones above
+    id: "halloween '26",
+    title: "halloween '26",
+    folder: "pics/",     // change to your real folder name
+    start: 66960002,                  // change to your real numbers
+    end: 66960032,
+    digits: 12                  
   },
   {
     id: "album_y",
-    title: "ocassion_y",
-    folder: "ocassion_y/",
+    title: "occasion_y",
+    folder: "occasion_y/",
     start: 1,
     end: 20,
     digits: 2
