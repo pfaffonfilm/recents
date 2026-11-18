@@ -52,7 +52,7 @@
     const id = new URLSearchParams(location.search).get("album");
     const album = albums.find(a => a.id === id) || albums[0];
 
-    document.title = album.title + " | shot on kodak";
+    document.title = album.title + " | lily's film";
     document.getElementById("title").textContent = album.title;
 
     const grid = document.getElementById("grid");
