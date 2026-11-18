@@ -32,10 +32,11 @@ const albums = [
   {
     id: "archive",
     title: "archive",
-    folder: "pics/",
-    start: 66960033,
-    end: 66960035,
-    digits: 12
+    folder: "pics/archive/",
+    start: 7,
+    end: 406,
+    digits: 4,
+    cover: 237
   }
 ];
 
