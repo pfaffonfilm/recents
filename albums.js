@@ -36,7 +36,7 @@ const albums = [
     start: 7,
     end: 406,
     digits: 4,
-    cover: 237
+    cover: 13
   }
 ];
 
