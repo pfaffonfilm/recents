@@ -13,8 +13,8 @@ const albums = [
     cover: 66960027
   },
   {
-    id: "halloween '26",
-    title: "halloween '26",
+    id: "halloween",
+    title: "halloween",
     folder: "pics/",     // change to your real folder name
     start: 66960002,                  // change to your real numbers
     end: 66960032,
@@ -22,8 +22,8 @@ const albums = [
     cover: 66960029
   },
   {
-    id: "nov '26",
-    title: "nov '26",
+    id: "nov",
+    title: "nov",
     folder: "pics/",
     start: 66960033,
     end: 66960035,
