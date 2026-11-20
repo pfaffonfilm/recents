@@ -3,12 +3,12 @@
 //To add an album later, copy one block, change the details, and upload its photos. 
 const albums = [
   {
-    id: "faves",              // used in the link, no spaces
-    label: "faves",   // text shown on the tile
-    title: "highlights",
-    folder: "pics/",           // folder the photos are in
+    id: "faves",             
+    label: "faves",  
+    title: "faves",
+    folder: "pics/",           
     photos: [66960007, 66960014, 66960023, 66960019, 66960020, 66960022, 66960025, 66960028, 66960029],
-    digits: 12,                 // total digits in the filename (000066960002 = 12)
+    digits: 12,                 
     cover: 66960027
   },
   {
@@ -22,8 +22,8 @@ const albums = [
   {
     id: "halloween",
     title: "halloween",
-    folder: "pics/",     // change to your real folder name
-    start: 66960002,                  // change to your real numbers
+    folder: "pics/",    
+    start: 66960002,               
     end: 66960032,
     digits: 12,
     cover: 66960029
