@@ -6,7 +6,7 @@
   <title>lily's film</title>
   <style>
     body { font-family: sans-serif; margin: 20px; }
-    h1 { margin-top: 0; }
+    h1 { margin-top: 0; color: white; }
 
     .tile {
       position: relative;
@@ -38,6 +38,16 @@
       text-transform: lowercase;
       letter-spacing: 0.08em;
     }
+    #bg-video {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    
+    h1 { color: white; }
 
     #banner { margin-bottom: 12px; }
     #banner span { font-size: clamp(24px, 5vw, 56px); }
@@ -47,6 +57,10 @@
   </style>
 </head>
 <body>
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="vid1.mp4" type="video/mp4">
+  </video>
+
   <h1>lily's film</h1>
   <div id="banner"></div>
   <div id="tiles"></div>
