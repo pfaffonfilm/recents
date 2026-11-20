@@ -61,7 +61,10 @@
     const photos = [];
     let current = 0;
 
-    for (let n = album.start; n <= album.end; n++) {
+    const numbers = album.photos ||
+      Array.from({ length: album.end - album.start + 1 }, (_, i) => album.start + i);
+
+    for (const n of numbers) {
       const src = photoPath(album, n);
       const img = document.createElement("img");
       img.src = src;
