@@ -22,7 +22,7 @@ const albums = [
     id: "halloween",
     title: "halloween",
     folder: "pics/",    
-    start: 66960000,               
+    start: 66959999,               
     end: 66960032,
     digits: 12,
     cover: 66960029
