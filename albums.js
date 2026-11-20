@@ -33,7 +33,7 @@ const albums = [
     id: "archive",
     title: "archive",
     folder: "pics/archive/",
-    start: 7,
+    start: 1,
     end: 406,
     digits: 4,
     cover: 7
