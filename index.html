@@ -75,7 +75,7 @@
       const img = document.createElement("img");
       img.src = photoPath(album, album.cover || (album.photos ? album.photos[0] : album.start));
       img.alt = album.title;
-      img.onerror = () => img.remove();          // grey tile if the photo is missing
+      img.onerror = () => img.remove();         
 
       const label = document.createElement("span");
       label.textContent = album.label || album.title;
