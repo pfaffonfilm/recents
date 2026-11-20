@@ -5,7 +5,7 @@ const albums = [
   {
     id: "recents",              // used in the link, no spaces
     label: "recents",   // text shown on the tile
-    title: "halloween '26",
+    title: "halloween",
     folder: "pics/",           // folder the photos are in
     start: 66960002,           // first number (without leading zeros)
     end: 66960032,             // last number
