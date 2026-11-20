@@ -52,7 +52,18 @@
     #banner { margin-bottom: 12px; }
     #banner span { font-size: clamp(24px, 5vw, 56px); }
 
-    #tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    #tiles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    
+    /* iPhone / narrow screens: stack albums vertically */
+    @media (max-width: 600px) {
+      #tiles {
+        grid-template-columns: 1fr;
+      }
+    }
     #tiles span { font-size: clamp(13px, 2.2vw, 28px); }
   </style>
 </head>
