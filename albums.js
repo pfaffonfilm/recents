@@ -7,7 +7,7 @@ const albums = [
     label: "faves",  
     title: "faves",
     folder: "pics/",           
-    photos: [66960007, 66960014, 66960023, 66960019, 66960020, 66960022, 66960025, 66960028, 66960029],
+    photos: [66960007, 66960014, 66960023, 66960019, 66960020, 66960022, 66960025, 66960028, 66960029, "000017", "000025", "000082", "000091", "000096"],
     digits: 12,                 
     cover: 66960027
   },
@@ -23,10 +23,28 @@ const albums = [
     id: "halloween",
     title: "halloween",
     folder: "pics/",    
-    start: 66960002,               
+    start: 66960000,               
     end: 66960032,
     digits: 12,
     cover: 66960029
+  },
+  {
+    id: "oct",
+    title: "oct",
+    folder: "pics/",    
+    start: 1,               
+    end: 90,
+    digits: 6,
+    cover: 30
+  },
+  {
+    id: "'26",
+    title: "'26",
+    folder: "pics/",    
+    start: 91,               
+    end: 99,
+    digits: 6,
+    cover: 93
   },
   {
     id: "archive",
