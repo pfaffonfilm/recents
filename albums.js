@@ -7,8 +7,9 @@ const albums = [
     label: "faves",  
     title: "faves",
     folder: "pics/",           
-    photos: [000066960007, 000066960014, 000066960023, 000066960019, 000066960020, 000066960022, 000066960025, 000066960028, 000066960029, 000017, 000025, 000082, 000091, 000096],             
-    cover: 000066960027
+    photos: [66960007, 66960014, 000066960023, 000066960019, 000066960020, 000066960022, 000066960025, 000066960028, 000066960029, "000017", "000025", "000082", "000091", "000096"],  
+    digits: 12,
+    cover: 66960027
   },
   {
     id: "nov",
@@ -58,5 +59,8 @@ const albums = [
 
 // helper used by both pages: builds the file path for photo number n
 function photoPath(album, n) {
-  return album.folder + String(n).padStart(album.digits, "0") + ".jpg";
+  const name = typeof n === "string" ? n : String(n).padStart(album.digits, "0");
+  return album.folder + name + ".jpg";
 }
+
+
